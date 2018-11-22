@@ -1,0 +1,66 @@
+{
+    "AuthKey": "5B191B5532784395BD36",
+    "Major": "1",
+    "Minor": "0",
+    "Argument": [{
+            "Type": "Text",
+            "Payload": "請確認以下變更"
+        },
+        {
+            "Type": "DynamicObject",
+            "PayloadInfo": "TicketChangeConfirm",
+            "Payload": {
+                "TicketChangeConfirm": [{
+                    "BookingReference": "AB1234",
+                    "FlightBefore": {
+                        "AirlineCodeFlightNo": "XXX01",
+                        "DepartFrom": "桃園(TPE)",
+                        "DepartDate": "2017/09/01",
+                        "DepartTime": "15:35",
+                        "ArriveTo": "北京(PEK)",
+                        "ArriveDate": "2017/09/01",
+                        "ArriveTime": "19:05"
+                    },
+                    "CabinClassBefore":"Y",
+                    "FlightAfter": {
+                        "AirlineCodeFlightNo": "YYY02",
+                        "DepartFrom": "桃園(TPE)",
+                        "DepartDate": "2017/09/01",
+                        "DepartTime": "15:35",
+                        "ArriveTo": "北京(PEK)",
+                        "ArriveDate": "2017/09/01",
+                        "ArriveTime": "19:05"
+                    },
+                    "CabinClassAfter":"V"
+                },{
+                    "BookingReference": "AB1234",
+                    "FlightBefore": {
+                        "AirlineCodeFlightNo": "XXX02",
+                        "DepartFrom": "桃園(TPE)",
+                        "DepartDate": "2017/09/01",
+                        "DepartTime": "15:35",
+                        "ArriveTo": "北京(PEK)",
+                        "ArriveDate": "2017/09/01",
+                        "ArriveTime": "19:05"
+                    },
+                    "CabinClassBefore":"V",
+                    "FlightAfter": {
+                        "AirlineCodeFlightNo": "YYY02",
+                        "DepartFrom": "桃園(TPE)",
+                        "DepartDate": "2017/09/01",
+                        "DepartTime": "15:35",
+                        "ArriveTo": "北京(PEK)",
+                        "ArriveDate": "2017/09/01",
+                        "ArriveTime": "19:05"
+                    },
+                    "CabinClassAfter":"Y"
+                }]
+            }
+        }
+
+    ],
+    "IsSuccess": true,
+    "JsonConvertName": "None",
+    "ArgumentType": "List`1",
+    "ResponseStatus": {}
+}

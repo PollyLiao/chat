@@ -1,0 +1,26 @@
+{
+	"MemberTickets":[
+		{
+			"ListSeatAvailable":{
+				"FlightInfo":{
+					"AirlineCodeFlightNo":"CI101",
+					"DepartFrom":"桃園(TPE)",
+					"DepartDate":"2017/09/01",
+					"DepartTime":"15:35",
+					"ArriveTo":"北京(PEK)",
+					"ArriveDate":"2017/09/01",
+					"ArriveTime":"19:05"
+				},
+				"Tickets":{
+					"SurName":"LIU",
+					"GivenName":"XIAOMONG",
+					"TicketNumber":"1234567890123",
+					"IssueDate":"2017/06/06",
+					"CabinClass":"Y"
+				},
+				"ActionType":"Selectable",
+				"DeaprtureOrReturn":"None"
+			}
+		}
+	]
+}

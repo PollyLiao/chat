@@ -1,0 +1,42 @@
+{
+    "AuthKey": "5B191B5532784395BD36",
+    "Major": "1",
+    "Minor": "0",
+    "Argument": [{
+            "Type": "Text",
+            "Payload": "以下是為您查詢的結果"
+        },
+        {
+            "Type": "DynamicObject",
+            "PayloadInfo": "ListSeatAvailableArray",
+            "Payload": {
+                "ListSeatAvailable": [{
+                        "FlightInfo": {
+                            "AirlineCodeFlightNo": "CI101",
+                            "DepartFrom": "桃園(TPE)",
+                            "DepartDate": "2017/09/01",
+                            "DepartTime": "15:35",
+                            "ArriveTo": "北京(PEK)",
+                            "ArriveDate": "2017/09/01",
+                            "ArriveTime": "19:05"
+                        },
+                        "FlightCabininfo": [{
+                                "CabinClass": "Y",
+                                "SeatAvailable": "30"
+                            },
+                            {
+                                "CabinClass": "V",
+                                "SeatAvailable": "-10"
+                            }
+                        ]
+                    }
+
+                ]
+            }
+        }
+    ],
+    "IsSuccess": true,
+    "JsonConvertName": "None",
+    "ArgumentType": "List`1",
+    "ResponseStatus": {}
+}

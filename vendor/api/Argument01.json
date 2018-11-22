@@ -1,0 +1,129 @@
+[{
+	"TimeInfo": null,
+	"Type": "Text",
+	"Payload": "請選擇您的機票：",
+	"PayloadInfo": null,
+	"DebugInfo": null
+}, {
+	"TimeInfo": null,
+	"Type": "DynamicObject",
+	"Payload": {
+        "MemberTickets": [{
+            "Tickets": [{
+                "SurName": "黃",
+                "GivenName": "廣志",
+                "ApproveNo": "20180409042300000000",
+                "CouponToSeg": "1",
+                "IsOccupied": true,
+                "TicketNumber": "51",
+                "IssueDate": "2018/04/09",
+                "CabinClass": "X",
+                "TicketType": "CI-ID00R3",
+                "IssueStatus": "R",
+                "NeedSelectedTicket":"Y"
+            }],
+            "FlightInfo": {
+                "AirlineCodeFlightNo": "CI156",
+                "DepartFrom": "TPE",
+                "DepartFromCn": "桃園",
+                "DepartDate": "2018/08/30",
+                "DepartTime": "08:20",
+                "ArriveTo": "KIX",
+                "ArriveToCn": "大阪",
+                "ArriveDate": "2018/08/30",
+                "ArriveTime": "12:00",
+                "DepartTerminal": "2",
+                "ArriveTerminal": "INTL"
+            },
+            "DepartureOrReturn": "Departure"
+        },{
+            "Tickets": [{
+                "SurName": "黃",
+                "GivenName": "圈圈",
+                "ApproveNo": "20180409042300000000",
+                "CouponToSeg": "1",
+                "IsOccupied": true,
+                "TicketNumber": "50",
+                "IssueDate": "2018/04/09",
+                "CabinClass": "X",
+                "TicketType": "CI-ID00R2",
+                "IssueStatus": "R",
+                "NeedSelectedTicket":"Y"
+            }],
+            "FlightInfo": {
+                "AirlineCodeFlightNo": "CI156",
+                "DepartFrom": "TPE",
+                "DepartFromCn": "桃園",
+                "DepartDate": "2018/08/30",
+                "DepartTime": "08:20",
+                "ArriveTo": "KIX",
+                "ArriveToCn": "大阪",
+                "ArriveDate": "2018/08/30",
+                "ArriveTime": "12:00",
+                "DepartTerminal": "2",
+                "ArriveTerminal": "INTL"
+            },
+            "DepartureOrReturn": "Departure"
+        },{
+            "Tickets": [{
+                "SurName": "林",
+                "GivenName": "稍稍",
+                "ApproveNo": "20180409042300000000",
+                "CouponToSeg": "1",
+                "IsOccupied": true,
+                "TicketNumber": "50",
+                "IssueDate": "2018/04/09",
+                "CabinClass": "X",
+                "TicketType": "CI-ID00R2",
+                "IssueStatus": "R",
+                "NeedSelectedTicket":"Y"
+            }],
+            "FlightInfo": {
+                "AirlineCodeFlightNo": "CI156",
+                "DepartFrom": "TPE",
+                "DepartFromCn": "桃園",
+                "DepartDate": "2018/08/30",
+                "DepartTime": "08:20",
+                "ArriveTo": "KIX",
+                "ArriveToCn": "大阪",
+                "ArriveDate": "2018/08/30",
+                "ArriveTime": "12:00",
+                "DepartTerminal": "2",
+                "ArriveTerminal": "INTL"
+            },
+            "DepartureOrReturn": "Departure"
+        },{
+            "Tickets": [{
+                "SurName": "廖",
+                "GivenName": "米奇",
+                "ApproveNo": "20180409042300000000",
+                "CouponToSeg": "1",
+                "IsOccupied": true,
+                "TicketNumber": "51",
+                "IssueDate": "2018/04/09",
+                "CabinClass": "N",
+                "TicketType": "CI-ID00R2",
+                "IssueStatus": "R",
+                "NeedSelectedTicket":"Y"
+            }],
+            "FlightInfo": {
+                "AirlineCodeFlightNo": "CI156",
+                "DepartFrom": "TPE",
+                "DepartFromCn": "桃園",
+                "DepartDate": "2018/08/30",
+                "DepartTime": "08:20",
+                "ArriveTo": "KIX",
+                "ArriveToCn": "大阪",
+                "ArriveDate": "2018/08/30",
+                "ArriveTime": "12:00",
+                "DepartTerminal": "2",
+                "ArriveTerminal": "INTL"
+            },
+            "DepartureOrReturn": "Departure"
+        }],
+        "ActionType": "Selectable",
+        "NeedAddress": false
+    },
+	"PayloadInfo": "TicketsTemplate",
+	"DebugInfo": null
+}]

@@ -1,0 +1,41 @@
+{
+    "AuthKey": "5B191B5532784395BD36",
+    "Major": "1",
+    "Minor": "0",
+    "Argument": [{
+            "Type": "Text",
+            "Payload": "以下是為您查詢的結果"
+        },
+        {
+            "Type": "DynamicObject",
+            "PayloadInfo": "BoardingTerminal",
+            "Payload":{
+                "BoardingTerminal":[
+                    {
+                        "BoardingTerminalInfo":"桃園國際機場第二航廈桃園國際機場第二航廈桃園國際機場第二航廈桃園國際機場第二航廈",
+                        "FlightInfo": {
+                            "AirlineCodeFlightNo": "XXX01",
+                            "DepartFrom": "桃園(TPE)",
+                            "DepartDate": "2017/09/01",
+                            "DepartTime": "15:35",
+                            "ArriveTo": "北京(PEK)",
+                            "ArriveDate": "2017/09/01",
+                            "ArriveTime": "19:05"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "DynamicObject",
+            "PayloadInfo": "QuickReply",
+            "Payload":{
+                "ButtonText":["查動態","查航班","空位登記","變更登記","航廈資訊"]
+            }
+        }
+    ],
+    "IsSuccess": true,
+    "JsonConvertName": "None",
+    "ArgumentType": "List`1",
+    "ResponseStatus": {}
+}

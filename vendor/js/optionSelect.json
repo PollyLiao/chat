@@ -1,0 +1,18 @@
+[
+    {
+		"id":"option01",
+		"list":"查動態"
+    },
+    {
+		"id":"option02",
+		"list":"查航班"
+    },
+    {
+		"id":"option03",
+		"list":"空位登記"
+    },
+    {
+		"id":"option04",
+		"list":"變更登記"
+    }
+]
