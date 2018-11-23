@@ -135,7 +135,7 @@ hr{border:0;}
 .messagesBox:after{content:''; display:block; clear:both;} 
 .messagesBox input, .messagesBox button{top:50%; transform: translateY(-50%)}
 .messagesBox input{ font-size:15px; color:#A1E2D9; font-family: '微軟正黑體','Arial'; width:90%; border:none; resize:none; background:#FFF; position: absolute;left:15px; }
-.messagesBox button{font-size:13px; color:#FFF; width:10%; position: absolute; right: 15px; height: 100%; text-align: center;  border:0; transition:all .5s ease; letter-spacing: 1px}
+.messagesBox button{font-size:13px; color:#FFF; width:10%; position: absolute; right: 15px; height: 100%; text-align: center;  border:0; transition:all .5s ease; letter-spacing: 1px; background: transparent;}
 .messagesBox button i{font-size:1.3rem; color:#A1E2D9}
 
 @media screen and (max-width:900px){
